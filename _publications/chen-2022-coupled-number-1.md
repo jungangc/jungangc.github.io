@@ -2,7 +2,7 @@
 title: "Coupled Flow and Geomechanics in Reservoirs with Complex Fractures Using Embedded Meshes"
 collection: publications
 category: conference
-permalink: /publication/chen-2022-coupled
+permalink: /publication/chen-2022-coupled-number-1
 excerpt: "Conference paper on coupled flow and geomechanics in fractured reservoirs using embedded meshes."
 date: 2022-01-01
 venue: "SPE Annual Technical Conference and Exhibition"
