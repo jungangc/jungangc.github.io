@@ -16,7 +16,6 @@ My current duties include:
 2. **Employing and developing machine learning algorithms** to improve the description, prediction, and control of subsurface systems, with a particular focus on **carbon capture and storage (CCS)**.
 
 I obtained my Ph.D. in Petroleum Engineering in 2024 from **Texas A&M University**, where my research focused on numerical simulation, scientific machine learning, deep learning-based surrogate modeling, and reinforcement learning applications.  
-
 Outside of work, I'm also interested in exploring **LLM applications**, and I enjoy activities like **playing tennis 🎾**.  
 ---
 
