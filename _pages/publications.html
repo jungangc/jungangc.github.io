@@ -10,12 +10,8 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
+{% bibliography %}
 
-{% assign years = "2025,2024,2023,2022" | split: "," %}
-{% for y in years %}
-### {{ y }}
-{% _bibliography --query @*[year={{ y | strip }}] %}
-{% endfor %}
 
 <!-- <!-- New style rendering if publication categories are defined -->
 <!-- {% if site.publication_category %}
