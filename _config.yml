@@ -309,7 +309,17 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
-
+  - jekyll-scholar
+  
+scholar:
+  style: ieee            # try: apa, ieee, etc.
+  locale: en
+  source: _bibliography  # where your .bib lives
+  bibliography: papers   # papers.bib (without extension)
+  repository: files      # where PDFs live (optional)
+  details_dir: bibliography
+  details_layout: bibtex.html
+  query: "@*"            # default: show all
 # Mimic GitHub Pages with --safe
 whitelist:
   - jekyll-feed
