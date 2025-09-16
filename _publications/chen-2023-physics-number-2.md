@@ -2,7 +2,7 @@
 title: "Physics-informed convolutional recurrent surrogate model for reservoir simulation with well controls"
 collection: publications
 category: preprint
-permalink: /publication/chen-2023-physics
+permalink: /publication/chen-2023-physics-number-2
 excerpt: "Preprint introducing a physics-informed convolutional recurrent surrogate model for reservoir simulation with well controls."
 date: 2023-05-01
 venue: "arXiv preprint"
