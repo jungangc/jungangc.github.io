@@ -13,15 +13,17 @@ I'm currently a **Postdoctoral Fellow** at the [Bureau of Economic Geology](http
 
 My current duties include:  
 1. **Leading the development of newest version of [EASiTool](https://gccc.beg.utexas.edu/easitool)** – a Python-based CO₂ storage capacity estimation platform that is trusted and used by **>100 professionals** from industry, government, and academia.  
-2. **Employing and developing machine learning algorithms** to improve the description, prediction, and control of subsurface systems, with a particular focus on **carbon capture and storage (CCS)**.  
+2. **Employing and developing machine learning algorithms** to improve the description, prediction, and control of subsurface systems, with a particular focus on **carbon capture and storage (CCS)**.
 
+I obtained my Ph.D. in Petroleum Engineering in 2024 from **Texas A&M University**, where my research focused on numerical simulation, scientific machine learning, deep learning-based surrogate modeling, and reinforcement learning applications.  
+
+Outside of work, I'm also interested in exploring **LLM applications**, and I enjoy activities like **playing tennis 🎾**.  
 ---
 
 ## My research interests include:
 
-- Multi-agent reinforcement learning and game-theoretic approaches for CO₂ storage optimization  
-- Uncertainty quantification of subsurface systems under safety and regulatory constraints  
-- Integration of geoscience domain knowledge with AI/ML to advance sustainable energy solutions  
+- CCS, computational geoenergy, machine learning
+- Integration of domain knowledge with AI/ML to advance sustainable energy solutions  
 - Development of reproducible, open-source tools for reservoir modeling and CO₂ storage assessment  
 
 ---
