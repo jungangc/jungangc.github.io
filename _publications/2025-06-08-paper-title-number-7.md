@@ -1,4 +1,3 @@
-
 ---
 title: "Assessing risk in long-term CO2 storage under uncertainty via survival analysis-based surrogates"
 collection: publications
