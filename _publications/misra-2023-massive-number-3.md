@@ -1,7 +1,7 @@
 ---
 title: "Massive geomodel compression and rapid geomodel generation using advanced autoencoders and autoregressive neural networks"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/misra-2023-massive-number-3
 excerpt: "Conference paper on geomodel compression and generation using autoencoders and autoregressive neural networks."
 date: 2023-01-01
