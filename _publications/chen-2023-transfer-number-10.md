@@ -2,7 +2,7 @@
 title: "Transfer learning-based physics-informed convolutional neural network for simulating flow in porous media with time-varying controls"
 collection: publications
 category: journal
-permalink: /publication/chen-2023-transfer
+permalink: /publication/chen-2023-transfer-number-10
 excerpt: "Journal paper on transfer learning-based physics-informed CNNs for porous media flow with dynamic controls."
 date: 2023-01-01
 venue: "Mathematics"
