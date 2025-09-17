@@ -1,7 +1,7 @@
 ---
 title: "Assessing risk in long-term CO2 storage under uncertainty via survival analysis-based surrogates"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/gurwicz-2024-assessing-number-7
 excerpt: "Conference paper on assessing CO₂ storage risk using survival analysis-based surrogates."
 date: 2024-01-01
