@@ -308,18 +308,15 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-scholar
   - jemoji
-  # - jekyll-scholar
   
-# scholar:
-#   style: ieee            # try: apa, ieee, etc.
-#   locale: en
-#   source: _bibliography  # where your .bib lives
-#   bibliography: papers   # papers.bib (without extension)
-#   repository: files      # where PDFs live (optional)
-#   # details_dir: bibliography
-#   # details_layout: bibtex.html
-#   query: "@*"            # default: show all
+scholar:
+  style: ieee
+  locale: en
+  source: _bibliography
+  bibliography: papers
+  repository: files
 
 # Mimic GitHub Pages with --safe
 whitelist:
