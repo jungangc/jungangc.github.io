@@ -1,0 +1,28 @@
+{%- comment -%}
+A single publication rendered as one <li> line with trailing [Link].
+Works for @article and @inproceedings. Uses year, journal/venue, and
+prints DOI/URL as [Link] when available.
+{%- endcomment -%}
+<li>
+  {%- assign a = entry -%}
+  {%- comment %} Authors (simple, compact) {% endcomment -%}
+  {%- capture authors -%}{% for au in a.author_array -%}
+    {%- assign last = au.last | strip -%}
+    {%- assign first = au.first | strip -%}
+    {%- if forloop.first -%}{{ last }}, {{ first | slice: 0,1 }}.{% else %}, {{ last }}{% if first != '' %}, {{ first | slice: 0,1 }}.{% endif %}{% endif -%}
+  {%- endfor -%}{%- endcapture -%}
+
+  {{ authors | replace: 'Chen, J.', '<strong>Chen, J.</strong>' }}
+
+  {% if a.year %}, {{ a.year }}{% endif %}.
+  {% if a.title %} {{ a.title | strip | replace: '  ', ' ' }}{% endif %}.
+  {% if a.container_title %} <em>{{ a.container_title }}</em>{% endif %}
+  {% if a.journal and a.container_title == nil %} <em>{{ a.journal }}</em>{% endif %}
+  {% if a.volume %}, {{ a.volume }}{% endif %}
+  {% if a.number %}({{ a.number }}){% endif %}
+  {% if a.pages %}, {{ a.pages }}{% endif %}.
+  {%- if a.status %} {{ a.status }}.{% endif -%}
+  {%- if a.doi or a.url -%}
+    [<a href="{{ a.url | default: 'https://doi.org/' | append: a.doi }}">Link</a>]
+  {%- endif -%}
+</li>
