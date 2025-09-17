@@ -1,7 +1,7 @@
 ---
 title: "Generative Artificial Intelligence for Geomodeling"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/misra-2024-generative-number-5
 excerpt: "Conference paper on generative AI for geomodeling."
 date: 2024-01-01
