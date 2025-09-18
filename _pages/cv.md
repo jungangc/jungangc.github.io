@@ -17,29 +17,21 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Feb 2025--Current: Postdoctoral Fellow
+  * Bureau of Economic Geology, UT Austin 
+  * Duties includes: 1. develop and advance newest version of EASiTool. 2. lead researches on machine learning applications for CCS. 
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* June 2024 - Aug 2024: Machine Learning Intern
+  * CNPC USA, Houston, Texas
+  * Duties included: Collaborated with a cross-functional team to establish strategic roadmap for machine learning applications in drilling
+operations. Utilized industry-standard metrics and physics-based methodologies to identify and label drilling dysfunctions
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* May 2022 - Aug 2022: Machine Learning Intern (Contract)
+  * ConocoPhillips Company, Remote
+  * Duties included: Developed GeoGPT which generate geomodels according to user-defined properties, offering up to a 95% reduction in
+geomodel generation time. Developed and applied the PixelSNAIL auto-regressive deep learning model for the rapid generation of new geomodels,
+significantly outpacing conventional techniques, published an impactful paper as the first author.
+
 
 Publications
 ======
@@ -47,11 +39,6 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
   
 Teaching
 ======
@@ -61,4 +48,9 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Member, Society of Petroleum Engineers;
+* Reviewer, Geoenergy Science and Engineerin;
+* Reviewer, Neural Computing and Applications;
+* Reviewer, Computer Methods in Applied Mechanics and Engineering;
+* Reviewer, Mathematical Geosciences;
+* Reviewer, Advances in Water Resources; 
