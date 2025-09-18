@@ -15,9 +15,9 @@ My current duties include:
 1. **Leading the development of newest version of [EASiTool](https://gccc.beg.utexas.edu/easitool)** – a Python-based CO₂ storage capacity estimation platform that is trusted and used by **>100 professionals** from industry, government, and academia.  
 2. **Employing and developing machine learning algorithms** to improve the description, prediction, and control of subsurface systems, with a particular focus on **carbon capture and storage (CCS)**.
 
-I obtained my Ph.D. in Petroleum Engineering in 2024 from **Texas A&M University**, where my research focused on numerical simulation, scientific machine learning, deep learning-based surrogate modeling, and reinforcement learning applications.  
+I obtained my Ph.D. in Petroleum Engineering in 2024 from **Texas A&M University**, where my research focused on numerical simulation, scientific machine learning, deep learning-based surrogate modeling, and reinforcement learning applications. Before that, I earned an M.S. in Petroleum Engineering from the **University of Southern California**.
 
-Outside of work, I'm also interested in exploring **LLM applications**, and I enjoy activities like **playing tennis 🎾**.  
+Outside work, I enjoy exploring **LLMs**, **AI agents**, and coding-- and I love **playing tennis 🎾**.  
 
 ---
 
