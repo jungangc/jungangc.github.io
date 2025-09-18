@@ -7,6 +7,14 @@ redirect_from:
   - /resume
 ---
 
+[⬇️ Download CV (PDF)]({{ '/files/Gordon-Chen-CV.pdf' | relative_url }}){: .btn .btn--primary target="_blank" }
+
+<!-- Optional: embed a preview -->
+<object data="{{ '/files/resume.pdf' | relative_url }}" type="application/pdf" width="100%" height="900px">
+  <p>Your browser can’t display PDFs. 
+  <a href="{{ '/files/resume.pdf' | relative_url }}">Download the CV</a>.</p>
+</object>
+
 {% include base_path %}
 
 Education
