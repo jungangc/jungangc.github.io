@@ -1,20 +1,14 @@
 ---
-title: "Teaching experience 1"
+title: "GeoFORCE Texas - Jackson School of Geosciences"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "High-schooler outreach program"
+permalink: /teaching/2025-July-teaching-1
+venue: "University of Texas at Austin, Bureau of Economic Geology"
+date: 2025-July
+location: "Austin, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+1. GeoFORCE is a free youth education outreach program for high school students across Texas.
+2. Delivered STEM outreach instruction to 10+ high school students using the EASiTool web app.
+3. Simplified complex technical concepts for diverse learners with no prior background.
