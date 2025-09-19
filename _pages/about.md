@@ -1,7 +1,3 @@
-> “What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention, and a need to allocate that attention efficiently among the overabundance of information sources that might consume it.”
->
-> — **Herbert A. Simon**, Economist and Nobel Laureate
-
 ---
 permalink: /
 title: "About me 👋"
@@ -10,6 +6,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+> “What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention, and a need to allocate that attention efficiently among the overabundance of information sources that might consume it.”
+>
+> — **Herbert A. Simon**, Economist and Nobel Laureate
 
 Hi there, I'm Jungang (Gordon) Chen 🐳  
 
