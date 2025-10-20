@@ -21,7 +21,7 @@ My current duties include:
 
 I obtained my Ph.D. in Petroleum Engineering in 2024 from **Texas A&M University**, where my research focused on numerical simulation, scientific machine learning, deep learning-based surrogate modeling, and reinforcement learning applications. Before that, I earned an M.S. in Petroleum Engineering from the **University of Southern California**.
 
-Outside work, I enjoy exploring **LLMs**, **AI agents**, and coding-- and I love **playing tennis 🎾**.  
+Outside work, I enjoy exploring **Foundation models**, **AI agents**, and coding-- and I love **playing tennis 🎾**.  
 
 ---
 
