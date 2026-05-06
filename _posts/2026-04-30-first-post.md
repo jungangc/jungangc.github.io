@@ -10,4 +10,4 @@ tags:
 
 This is my first blog post here.
 
-I plan to start using this space to share research notes, study notes, and general thoughts. Some posts may be polished reflections, while others may simply be working notes from things I am reading, learning, or thinking through.
+I plan to start using this space to share research notes, study notes, and general thoughts. Some posts may simply be cliché, some may be daily reflections, and some may be working notes from things I am reading, learning, or thinking through.
