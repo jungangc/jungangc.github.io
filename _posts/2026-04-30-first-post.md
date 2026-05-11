@@ -11,3 +11,5 @@ tags:
 This is my first blog post here.
 
 I plan to start using this space to share research notes, study notes, and general thoughts. Some posts may simply be cliché, some may be daily reflections, and some may be working notes from things I am reading, learning, or thinking through.
+
+There is no specific reason that pushed me to start this blog. Perhaps, in an AI age when everything increasingly feels shaped by the same algorithms, writing here is a small way to preserve a sense of individuality — and to leave a more personal trace of how I think, learn, and grow...
