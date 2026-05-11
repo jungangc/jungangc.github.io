@@ -1,7 +1,7 @@
 ---
 title: 'Simulation workflow agent for carbon storage'
 date: 2026-05-01
-permalink: /posts/2026/04/simulation-workflow-agent-for-carbon-storage/
+permalink: /posts/2026/05/simulation-workflow-agent-for-carbon-storage/
 tags:
   - carbon storage
   - simulation
