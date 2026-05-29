@@ -1,0 +1,58 @@
+{% include base_path %}
+
+{% assign pub_image = post.image | default: post.header.teaser %}
+{% assign pub_authors = post.authors %}
+{% unless pub_authors %}
+  {% assign citation_parts = post.citation | split: ". (" %}
+  {% assign pub_authors = citation_parts[0] %}
+{% endunless %}
+
+<article class="publication-card">
+  <div class="publication-card__media">
+    {% if pub_image %}
+      <img
+        src="{% if pub_image contains '://' %}{{ pub_image }}{% else %}{{ pub_image | prepend: '/images/' | prepend: base_path }}{% endif %}"
+        alt="Preview image for {{ post.title | escape }}"
+      >
+    {% else %}
+      <div class="publication-card__placeholder" aria-hidden="true">
+        <span>{{ post.date | date: "%Y" }}</span>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="publication-card__body">
+    <h2 class="publication-card__title">
+      <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
+
+    {% if pub_authors %}
+      <p class="publication-card__authors">
+        {{ pub_authors
+          | replace: "Chen, Jungang", "<strong>Chen, Jungang</strong>"
+          | replace: "Chen, J.", "<strong>Chen, J.</strong>"
+          | replace: "Jungang Chen", "<strong>Jungang Chen</strong>" }}
+      </p>
+    {% endif %}
+
+    {% if post.venue %}
+      <p class="publication-card__venue">{{ post.venue }}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
+    {% endif %}
+
+    <p class="publication-card__links">
+      <a href="{{ base_path }}{{ post.url }}">Abstract</a>
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}">Paper</a>
+      {% endif %}
+      {% if post.projecturl %}
+        <a href="{{ post.projecturl }}">Project</a>
+      {% endif %}
+      {% if post.slidesurl %}
+        <a href="{{ post.slidesurl }}">Slides</a>
+      {% endif %}
+      {% if post.bibtexurl %}
+        <a href="{{ post.bibtexurl }}">BibTeX</a>
+      {% endif %}
+    </p>
+  </div>
+</article>
