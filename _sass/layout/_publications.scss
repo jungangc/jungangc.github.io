@@ -22,7 +22,11 @@
   border: 1px solid var(--global-border-color);
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(#000, 0.18);
-  object-fit: cover;
+}
+
+.publication-card__media img {
+  background: #fff;
+  object-fit: contain;
 }
 
 .publication-card__placeholder {
