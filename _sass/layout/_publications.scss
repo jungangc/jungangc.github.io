@@ -29,6 +29,11 @@
   object-fit: contain;
 }
 
+.publication-card__image-stack {
+  display: grid;
+  gap: 0.55rem;
+}
+
 .publication-card__placeholder {
   display: flex;
   align-items: center;

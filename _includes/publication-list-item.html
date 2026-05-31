@@ -1,5 +1,6 @@
 {% include base_path %}
 
+{% assign pub_images = post.images %}
 {% assign pub_image = post.image | default: post.header.teaser %}
 {% assign pub_authors = post.authors %}
 {% unless pub_authors %}
@@ -9,7 +10,16 @@
 
 <article class="publication-card">
   <div class="publication-card__media">
-    {% if pub_image %}
+    {% if pub_images %}
+      <div class="publication-card__image-stack">
+        {% for image in pub_images %}
+          <img
+            src="{% if image contains '://' %}{{ image }}{% else %}{{ image | prepend: '/images/' | prepend: base_path }}{% endif %}"
+            alt="Preview image {{ forloop.index }} for {{ post.title | escape }}"
+          >
+        {% endfor %}
+      </div>
+    {% elsif pub_image %}
       <img
         src="{% if pub_image contains '://' %}{{ pub_image }}{% else %}{{ pub_image | prepend: '/images/' | prepend: base_path }}{% endif %}"
         alt="Preview image for {{ post.title | escape }}"
