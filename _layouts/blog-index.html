@@ -1,0 +1,13 @@
+---
+layout: blog-base
+---
+
+{% include base_path %}
+
+<main class="blog-shell blog-index" role="main">
+  <nav class="blog-breadcrumb" aria-label="Breadcrumb">
+    / <a href="{{ base_path }}/">{{ site.author.name | default: site.title }}</a> / <strong>Posts</strong>
+  </nav>
+
+  {{ content }}
+</main>

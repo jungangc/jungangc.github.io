@@ -1,19 +1,32 @@
 ---
-layout: archive
+layout: blog-index
 permalink: /year-archive/
-title: "Blog posts"
-author_profile: true
+title: "Posts"
+author_profile: false
 redirect_from:
   - /wordpress/blog-posts/
 ---
 
 {% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
-{% endfor %}
+
+<h1 class="blog-index__title">Posts</h1>
+
+<section class="blog-guideline" aria-labelledby="feynman-method">
+  <h2 id="feynman-method">Overarching guideline: The Feynman method of learning</h2>
+  <ol>
+    <li>Choose a concept and study it.</li>
+    <li>Teach it to someone, like a child, who is unfamiliar with the topic.</li>
+    <li>Revise to fill in the gaps.</li>
+    <li>Review and simplify.</li>
+  </ol>
+  <p>Repeat steps 2 and 4 until you can explain the concept in your own words.</p>
+</section>
+
+<div class="blog-post-list">
+  {% for post in site.posts %}
+    <article class="blog-post-row">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+      <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+    </article>
+  {% endfor %}
+</div>
