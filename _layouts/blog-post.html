@@ -5,12 +5,6 @@ layout: blog-base
 {% include base_path %}
 
 <main class="blog-shell blog-post" role="main">
-  <nav class="blog-breadcrumb" aria-label="Breadcrumb">
-    / <a href="{{ base_path }}/">{{ site.author.name | default: site.title }}</a> /
-    <a href="{{ base_path }}/posts/">Posts</a> /
-    <strong>{{ page.title | truncate: 52 }}</strong>
-  </nav>
-
   <article class="blog-article">
     <header class="blog-article__header">
       <h1>{{ page.title }}</h1>

@@ -24,19 +24,6 @@
   color: var(--global-link-color);
 }
 
-.blog-breadcrumb {
-  margin-bottom: 5.4rem;
-  color: var(--global-text-color);
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.blog-breadcrumb strong {
-  font-weight: 700;
-}
-
 .blog-index__title,
 .blog-article__header h1 {
   margin: 0;
@@ -190,10 +177,6 @@
   .blog-shell {
     padding: 1.4rem 1rem 4rem;
     font-size: 0.78rem;
-  }
-
-  .blog-breadcrumb {
-    margin-bottom: 4rem;
   }
 
   .blog-post-row {
