@@ -27,6 +27,7 @@
 .blog-breadcrumb {
   margin-bottom: 5.4rem;
   color: var(--global-text-color);
+  text-align: center;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -53,6 +54,7 @@
   border: 1px solid var(--global-border-color);
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  text-align: left;
 }
 
 .blog-guideline h2 {
@@ -79,7 +81,9 @@
 .blog-post-list {
   display: grid;
   gap: 1.45rem;
-  margin-top: 2.2rem;
+  max-width: 34rem;
+  margin: 2.2rem auto 0;
+  text-align: left;
 }
 
 .blog-post-row {
@@ -100,11 +104,14 @@
 
 .blog-article__header {
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .blog-article__header h1 {
   max-width: 36rem;
+  margin-right: auto;
   margin-bottom: 2.25rem;
+  margin-left: auto;
 }
 
 .blog-article__byline {
@@ -115,17 +122,20 @@
 .blog-article__tags {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 0.35rem 0.6rem;
   margin: 0;
   font-style: italic;
 }
 
 .blog-toc {
-  margin: 0 0 2.6rem;
+  max-width: 34rem;
+  margin: 0 auto 2.6rem;
   padding: 0.85rem 1rem;
   border: 1px solid var(--global-border-color);
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  text-align: left;
 }
 
 .blog-toc summary {
@@ -164,6 +174,16 @@
   font-size: 0.86rem;
   font-weight: 700;
   letter-spacing: 0;
+}
+
+.blog-index__title {
+  text-align: center;
+}
+
+.blog-article__content {
+  max-width: 34rem;
+  margin: 0 auto;
+  text-align: left;
 }
 
 @media (max-width: 600px) {
