@@ -17,6 +17,14 @@ url                      : https://jungangc.github.io # the base hostname & prot
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 # repository               : "academicpages/academicpages.github.io"
 
+# ClustrMaps visitor map. Paste the generated `d=` token from your ClustrMaps
+# widget code to enable the live map on the home page.
+clustrmaps:
+  token                   :
+  color                   : "ffffff"
+  width                   : "a"
+  text                    : "n"
+
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html

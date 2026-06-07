@@ -1,0 +1,13 @@
+{% assign clustrmaps = site.clustrmaps %}
+{% if clustrmaps and clustrmaps.token %}
+  <section class="visitor-map" aria-labelledby="visitor-map-title">
+    <h2 id="visitor-map-title">Visitor Map</h2>
+    <div class="visitor-map__widget">
+      <script
+        type="text/javascript"
+        id="clustrmaps"
+        src="https://cdn.clustrmaps.com/map_v2.js?cl={{ clustrmaps.color | default: 'ffffff' }}&w={{ clustrmaps.width | default: 'a' }}&t={{ clustrmaps.text | default: 'n' }}&d={{ clustrmaps.token }}">
+      </script>
+    </div>
+  </section>
+{% endif %}

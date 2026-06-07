@@ -1,0 +1,22 @@
+.visitor-map {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--global-border-color);
+}
+
+.visitor-map h2 {
+  margin-top: 0;
+}
+
+.visitor-map__widget {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.visitor-map__widget iframe,
+.visitor-map__widget img,
+.visitor-map__widget canvas,
+.visitor-map__widget svg {
+  max-width: 100% !important;
+  height: auto !important;
+}
