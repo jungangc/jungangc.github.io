@@ -17,13 +17,15 @@ url                      : https://jungangc.github.io # the base hostname & prot
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 # repository               : "academicpages/academicpages.github.io"
 
-# ClustrMaps visitor map. Paste the generated `d=` token from your ClustrMaps
-# widget code to enable the live map on the home page.
-clustrmaps:
-  token                   :
-  color                   : "ffffff"
-  width                   : "a"
-  text                    : "n"
+# Visitor map powered by whos.amung.us. The free map widget does not require
+# signup; the site_id just identifies this site's public stats.
+visitor_map:
+  site_id                 : "jungangcghio"
+  widget_id               : "jgc"
+  width                   : "500"
+  height                  : "250"
+  theme                   : "natural"
+  pin                     : "target-red"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.

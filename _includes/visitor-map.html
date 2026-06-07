@@ -1,0 +1,18 @@
+{% assign visitor_map = site.visitor_map %}
+{% assign map_id = visitor_map.site_id | default: 'jungangcghio' %}
+{% assign widget_id = visitor_map.widget_id | default: 'jgc' %}
+{% assign map_width = visitor_map.width | default: '500' %}
+{% assign map_height = visitor_map.height | default: '250' %}
+{% assign map_theme = visitor_map.theme | default: 'natural' %}
+{% assign map_pin = visitor_map.pin | default: 'target-red' %}
+
+<section class="visitor-map" aria-labelledby="visitor-map-title">
+  <h2 id="visitor-map-title">Pageview Map</h2>
+  <div class="visitor-map__widget">
+    <script id="_wau{{ widget_id }}">
+      var _wau = _wau || [];
+      _wau.push(["map", "{{ map_id }}", "{{ widget_id }}", "{{ map_width }}", "{{ map_height }}", "{{ map_theme }}", "{{ map_pin }}"]);
+    </script>
+    <script async src="https://waust.at/m.js"></script>
+  </div>
+</section>

@@ -2,6 +2,7 @@
   margin-top: 2rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--global-border-color);
+  text-align: center;
 }
 
 .visitor-map h2 {
@@ -9,19 +10,10 @@
 }
 
 .visitor-map__widget {
+  display: flex;
+  justify-content: center;
   max-width: 100%;
   overflow: hidden;
-}
-
-.visitor-map__placeholder {
-  padding: 1rem 1.1rem;
-  border: 1px solid var(--global-border-color);
-  border-radius: 8px;
-  background: var(--global-bg-color);
-}
-
-.visitor-map__placeholder p {
-  margin: 0 0 0.6rem;
 }
 
 .visitor-map__widget iframe,

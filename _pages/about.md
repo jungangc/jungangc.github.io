@@ -35,4 +35,4 @@ Outside work, I enjoy exploring **Foundation models**, **AI agents**, and coding
 
 Feel free to explore my site to learn more about my **projects, publications, and research/study notes**.
 
-{% include clustrmaps.html %}
+{% include visitor-map.html %}
