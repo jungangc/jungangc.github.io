@@ -13,6 +13,17 @@
   overflow: hidden;
 }
 
+.visitor-map__placeholder {
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  background: var(--global-bg-color);
+}
+
+.visitor-map__placeholder p {
+  margin: 0 0 0.6rem;
+}
+
 .visitor-map__widget iframe,
 .visitor-map__widget img,
 .visitor-map__widget canvas,

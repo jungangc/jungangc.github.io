@@ -1,7 +1,7 @@
 {% assign clustrmaps = site.clustrmaps %}
-{% if clustrmaps and clustrmaps.token %}
-  <section class="visitor-map" aria-labelledby="visitor-map-title">
-    <h2 id="visitor-map-title">Visitor Map</h2>
+<section class="visitor-map" aria-labelledby="visitor-map-title">
+  <h2 id="visitor-map-title">Pageview Map</h2>
+  {% if clustrmaps and clustrmaps.token %}
     <div class="visitor-map__widget">
       <script
         type="text/javascript"
@@ -9,5 +9,13 @@
         src="https://cdn.clustrmaps.com/map_v2.js?cl={{ clustrmaps.color | default: 'ffffff' }}&w={{ clustrmaps.width | default: 'a' }}&t={{ clustrmaps.text | default: 'n' }}&d={{ clustrmaps.token }}">
       </script>
     </div>
-  </section>
-{% endif %}
+  {% else %}
+    <div class="visitor-map__placeholder">
+      <p>
+        ClustrMaps is ready here. Add the generated <code>d=</code> token to
+        <code>_config.yml</code> to turn on the live world map and pageview tracking.
+      </p>
+      <a href="https://clustrmaps.com/" rel="nofollow noopener" target="_blank">Get a ClustrMaps token</a>
+    </div>
+  {% endif %}
+</section>
