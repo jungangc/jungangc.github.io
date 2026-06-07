@@ -12,8 +12,14 @@
 .visitor-map__widget {
   display: flex;
   justify-content: center;
+  min-height: 250px;
   max-width: 100%;
   overflow: hidden;
+}
+
+.visitor-map__fallback {
+  margin-top: 0.75rem;
+  font-size: 0.85em;
 }
 
 .visitor-map__widget iframe,

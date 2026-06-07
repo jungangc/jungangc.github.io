@@ -21,7 +21,6 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 # signup; the site_id just identifies this site's public stats.
 visitor_map:
   site_id                 : "jungangcghio"
-  widget_id               : "jgc"
   width                   : "500"
   height                  : "250"
   theme                   : "natural"
